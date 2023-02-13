@@ -1,39 +1,47 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,100;1,300&family=Saira:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Saira', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.calculator {
+  width: 90%;
+  margin: 2rem auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.input {
+  background-color: #5c5555;
+  height: 40px;
+  width: 100%;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+.digit {
+  padding: 10px;
+  background-color: rgb(243, 240, 240);
+  border: 1px solid rgb(211, 211, 211);
+}
 
-  to {
-    transform: rotate(360deg);
+.digit:nth-child(17) {
+  grid-column: 1/3;
+}
+
+.digit:nth-child(4n+0),
+.digit:nth-child(19) {
+  background-color: rgb(255, 119, 0);
+}
+
+@media (min-width: 768px) {
+  .calculator {
+    width: 60%;
   }
 }
