@@ -1,70 +1,223 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<a name="readme-top"></a>
 
-## Available Scripts
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📖 About the Project](#portfolio)
+  - [🛠 Built With](#htmlt_and_css)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#mobile_size)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# 📖<a name="about-project">MATH_MAGICIAN</a>
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***math magician is a simple mathmatics website that says alot amd promote the mathematics community, it consist of feature such as calculator that run simple arithemetics***
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🛠 Built With <a name="built-with">VSCode</a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### <a name="tech-stack">REACT, CSS, NODE.JS</a>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://reactjs.org/">React</a></li>
+  </ul>
+</details>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<details>
+  <summary>Styling</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">CSS</a></li>
+  </ul>
+</details>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<details>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<details>
+<summary>server env</summary>
+  <ul>
+    <li><a href="https://node.js.org/">node.js</a></li>
+  </ul>
+</details>
+<!-- Features -->
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Key Features <a name="key-features"></a>
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **[A page for math quotes]()**
+- **[perform simple math arithemetic]()**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- [Live Demo Link]
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+A beginner developer can use this template as a starting point for creating other HTML projects that are properly set up with CSS and have ESLint configured.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- NODE
+- ESlint set up
+
+
+### Setup
+
+Clone this repository to your desired folder:
+
+gh repo clone https://github.com/Tobby8629/math_magician.git
+
+### Install
+
+To obtain a copy of this repository, clone it to your desired folder:
+
+Commands: 
+
+```sh
+  gh repo clone https://github.com/Tobby8629/math_magician.git
+  cd hello-world
+  npm install -y
+```
+<br><br>
+
+### Usage
+
+To run the project, execute the following command:
+
+- install serve with: 
+```sh
+npm install -g serve
+```
+
+```sh
+  serve -s .
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+- To check for CSS errors
+
+```sh
+    npx stylelint "**/*.{css,scss}"
+
+```
+- To check for HTML errors
+
+```sh
+    npx hint .
+```
+
+- To check for Javascript errors
+
+```sh
+    npx eslint .
+```
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 👥 Authors <a name="authors">popoola samuel o.</a>
+
+
+
+- GitHub: [@tobby8629](https://github.com/tobby8629)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [samuel popoola](https://linkedin.com/in/samuel-popoola-tobby/)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🔭 Future Features <a name="future-features"></a>
+
+> I'll add the following section to the webpage.
+
+- [ ] **[section to show math related quotes ]()**
+- [ ] **[section to display images of some big influencers of math]()**
+- [ ] **[A page that solve math problems]()**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Tobby8629/math_magician/issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## ⭐️ Show your support <a name="support"></a>
+
+
+If you like this project... Kindly leave a star ⭐
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+> Give credit to everyone who inspired your codebase.
+
+I would like to thank Microverse and my studying partners
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FAQ (optional) -->
+
+## ❓ FAQ <a name="faq"></a>
+
+
+- **[Did you intergrate linters to your project]()**
+
+  - [Yes]()
+
+- **[Did you run all the tests]()**
+
+  - [Yes]()
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
