@@ -4,6 +4,9 @@ import calculate from './logic/calculate';
 const Calculator = () => {
   const digits = ['AC', '+/-', '%', '\u00f7', '7', '8', '9', 'x', '4', '5', '6', '-', '1', '2', '3', '+', '0', '.', '='];
   const [solution, setsolution] = useState({ total: null, next: null, operation: null });
+  const calc = (e) => {
+    setsolution(calculate(solution, e.target.textContent));
+  };
   return (
     <div className="calculator">
       <div className="digits">
@@ -19,10 +22,10 @@ const Calculator = () => {
             <div
               className="digit"
               key={digit}
-              onClick={(e) => setsolution(calculate(solution, e.target.textContent))}
+              onClick={calc}
               role="button"
               tabIndex={0}
-              onKeyDown={(e) => setsolution(calculate(solution, e.target.textContent))}
+              onKeyDown={calc}
             >
               {digit}
             </div>
