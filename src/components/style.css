@@ -91,4 +91,8 @@ h2 {
   header {
     padding: 15px 2rem;
   }
+
+  .Navlinks {
+    font-size: 20px;
+  }
 }
