@@ -7,43 +7,8 @@
   font-family: 'Saira', sans-serif;
 }
 
-.calculator {
-  width: 90%;
-  margin: 2rem auto;
-}
-
-.input {
-  background-color: #5c5555;
-  height: 40px;
-  width: 100%;
-  color: white;
-  text-align: right;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  text-align: center;
-}
-
-.digit {
-  padding: 10px;
-  background-color: rgb(243, 240, 240);
-  border: 1px solid rgb(211, 211, 211);
-  cursor: pointer;
-}
-
-.digit:nth-child(17) {
-  grid-column: 1/3;
-}
-
-.digit:nth-child(4n+0),
-.digit:nth-child(19) {
-  background-color: rgb(255, 119, 0);
-}
-
 @media (min-width: 768px) {
-  .calculator {
-    width: 60%;
+  p {
+    font-size: 23px;
   }
 }
