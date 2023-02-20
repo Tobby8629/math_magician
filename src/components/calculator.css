@@ -1,6 +1,6 @@
 .arit {
   margin: 1rem 10px;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 .calculator {
@@ -46,6 +46,7 @@
   .arit h2 {
     width: 30%;
   }
+
   .calculator {
     width: 65%;
     margin: 1rem;

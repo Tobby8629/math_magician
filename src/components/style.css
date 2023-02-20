@@ -2,8 +2,8 @@
 
 header {
   border: 2px solid gray;
-  box-shadow: 0px 0px 10px 0px gray;
-  padding: .5rem;
+  box-shadow: 0 0 10px 0 gray;
+  padding: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -11,7 +11,6 @@ header {
 
 .logo {
   background-color: rgb(176, 153, 7);
-
   padding: 5px;
   animation: motion 5s infinite;
 }
@@ -30,7 +29,7 @@ nav a {
 }
 
 .Navlinks {
-  transition: .3s linear;
+  transition: 0.3s linear;
 }
 
 nav a:last-child {
@@ -38,8 +37,8 @@ nav a:last-child {
 }
 
 .Navlinks:hover {
- transform: translateY(-10px);
- color: rgb(176, 153, 7);
+  transform: translateY(-10px);
+  color: rgb(176, 153, 7);
 }
 
 
@@ -48,7 +47,7 @@ nav a:last-child {
 
 .home {
   margin: 1rem 10px;
-  padding: .5rem;
+  padding: 0.5rem;
 }
 
 p,
@@ -63,7 +62,6 @@ h2 {
   flex-direction: column;
   width: 80%;
   margin: 4rem auto;
-
 }
 
 .quotes h2 {
@@ -77,13 +75,15 @@ h2 {
 
 @keyframes motion {
   0% {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
+
   50% {
     transform: translateY(-3px);
   }
+
   100% {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
 
@@ -91,6 +91,4 @@ h2 {
   header {
     padding: 15px 2rem;
   }
-  
 }
-
