@@ -11,7 +11,7 @@ const Calculator = () => {
     <div className="calculator">
       <div className="digits">
 
-        <div className="input">
+        <div className="input" data-testid = "screen">
           {solution.total}
           {solution.operation}
           {solution.next}
@@ -26,6 +26,7 @@ const Calculator = () => {
               role="button"
               tabIndex={0}
               onKeyDown={calc}
+              data-testid = "btn"
             >
               {digit}
             </div>
