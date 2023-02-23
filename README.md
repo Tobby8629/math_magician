@@ -74,7 +74,7 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 
-- [https://tobby-math-magician.onrender.com/arithemetic]
+- [https://tobby-math-magician.onrender.com]
 
 
 
