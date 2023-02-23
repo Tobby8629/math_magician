@@ -158,6 +158,22 @@ To run tests, run the following command:
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [samuel popoola](https://linkedin.com/in/samuel-popoola-tobby/)
 
+## 👥 Authors <a name="authors">Lugard agu s.</a>
+
+
+
+- GitHub: [@Lugard](https://github.com/Lugard1)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [Lugard agu](https://linkedin.com/)
+
+## 👥 Authors <a name="authors">Mark Fenekayas</a>
+
+
+
+- GitHub: [@Fene-87](https://github.com/Fene-87)
+- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
+- LinkedIn: [Mark Fenekayas](https://linkedin.com//)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
